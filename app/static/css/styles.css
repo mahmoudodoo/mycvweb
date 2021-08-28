@@ -1,0 +1,140 @@
+
+body{
+    background-color: rgb(152, 181, 194);
+}
+
+
+.usernameText{
+    color: rgb(12, 12, 37); 
+    font-weight: bold;
+    padding-top: 45%;
+
+}
+.usernameBlock{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: rgb(156, 183, 185);
+    text-align: center;
+
+}
+
+.tweetBlock{
+    padding: 1%;
+    background-color: rgb(84, 85, 85);
+    width: 100%;
+    height: auto;
+    border: rgb(107, 108, 110) solid 2px;
+    border-radius: 2%;
+    margin-bottom: 10px;
+
+}
+.bodyText{
+    color: rgb(214, 225, 243);
+    font-weight: bold;
+}
+
+#divvyTrips span:hover{
+    background-color:rgb(170, 222, 243);
+}
+
+#logout_btn span:hover{
+    background-color:rgb(170, 222, 243);
+}
+
+
+.dataframe {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.dataframe thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.dataframe th,
+.dataframe td {
+    padding: 12px 15px;
+}
+
+.dataframe tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.dataframe tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.dataframe tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.dataframe tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+}
+
+.box_container{
+    box-shadow: 5px 10px dimgray;
+    margin-top:100px;
+    background-color: floralwhite;
+  }
+
+  .inside-nav-div{
+    margin-top: 10px; 
+    padding: 6px;
+  }
+  .nav-itself{
+    background-color:rgb(187, 212, 248);
+  }
+  .nav-item{
+    padding: 10px;
+    margin:20px;
+    background-color: honeydew;
+    border-radius: 10%;
+  }
+  .csv-sheet{
+    margin-top: 100px;
+    align-items: center;
+    width: 100%;
+  }
+  /* For mobile */
+  @media only screen and (max-width: 768px) {
+
+    .box_container{
+        margin-top:100%;
+        display: inline-block;
+        align-items: center;
+        align-content: center;
+
+      }
+    
+      .nav-item{
+        margin: 5px;
+        width: 100%;
+        display: inline-block;
+        align-items: center;
+        align-content: center;
+        
+      }
+
+    .inside-nav-div{
+        align-items: center;
+        align-content: center;
+        margin-top: 20px; 
+        padding: 1px;
+        display: inline-block;
+      }
+      .csv-sheet{
+        margin-top:100%;
+        align-items: center;
+        width: 100%;
+      }
+    
+  }
